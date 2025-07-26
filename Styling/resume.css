@@ -92,6 +92,7 @@ header{
     border-radius:3rem;
     margin-left:1rem;
     text-wrap: nowrap;
+    cursor:pointer;
 }
 
 .hire-me:hover{

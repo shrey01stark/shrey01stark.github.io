@@ -95,12 +95,27 @@ header{
     cursor:pointer;
 }
 
-.hire-me:hover{
+.save-pdf{
+    text-align:center;
+    color:white;
+    background-color: rgb(168, 7, 7);
+    font-size: large;
+    font-weight:bold;
+    padding: 0.6rem;
+    border: solid 0.2rem white;
+    border-radius:3rem;
+    margin: 0 0rem 0 2rem;
+    text-wrap: nowrap;
+    cursor:pointer;
+}
+
+.hire-me:hover,.save-pdf:hover{
     border: solid 0.2rem black; 
     box-shadow: 2rem 2rem 4rem black;
-    background-color: aqua;
+    background-color: rgb(2, 173, 173);
     color:black;
 }
+
 .name{
     font-size: 4rem;
     margin-bottom:0.5rem;

@@ -1,0 +1,215 @@
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex:1;
+    justify-content:space-between;
+    align-content: center;
+    width: 100%;
+    height:7rem;
+    top:0rem;
+    color:white;
+    border-bottom: solid 0.3rem rgba(10, 40, 58, 0.462);
+    backdrop-filter: blur(50px);
+    position:fixed;
+    z-index: 1002;
+} 
+
+.header-left{
+    display:flex;
+    width: 20%;
+}
+
+.header-middle{
+    display: flex;
+    width:80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right{
+    display: flex;
+}
+
+.header-img-box{
+    width:100vw;
+    position:relative;
+}
+
+.header-img{
+    object-fit: cover;
+    width:100%;
+    height: 24vw;
+}
+
+.search{
+    width: 5rem;
+    height: 4.59rem;
+    border: inset 8px rgb(12, 12, 12);
+    box-shadow: inset 1rem 1rem 10rem rgb(12, 12, 12) ;
+}
+
+.searchbar{
+    width: 25rem;
+    height: 3.5rem;
+    border: solid 0.5rem black;
+    border-radius: 1rem 0 0 1rem;
+    background-color: rgb(12, 12, 12) ;
+    margin-right:0rem;
+    box-shadow: -0.5rem 0.5rem 1rem rgb(2, 19, 35) ;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+
+.searchbar::placeholder{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: rgb(231, 231, 231);
+}
+
+.searchbar:focus{
+    outline: none;
+}
+
+.searchbar:hover,.contact-me:hover{
+    background-color: rgba(12, 12, 12, 0.811);
+}
+
+.searchbar:active,.contact-me:active{
+    box-shadow: -0.5rem 0.5rem 1rem rgb(2, 19, 35) ;
+}
+
+.search{
+    border-radius: 0 1rem 1rem 0;
+    width: 5rem;
+    height: 4.65rem;
+    cursor:pointer;
+    border: solid 0.5rem black;
+    background-color: rgb(12, 12, 12) ;
+    margin-right:0rem;
+    margin-top:1rem;
+    margin-bottom:1.2rem;
+    box-shadow: -0.5rem 0.5rem 1rem rgb(2, 19, 35) ;
+}
+
+
+.search:hover{
+    box-shadow: inset 2rem 2rem 2rem rgba(10, 40, 58, 0.462);
+}
+
+.menu:active{
+    margin-top: 1rem;
+}
+
+.search:active,.searchbar:active,.contact-me:active{
+    margin-top:0.1rem;
+    margin-left:0.1rem;
+}
+
+
+.contact-div{
+    display: flex;
+    width: 12rem;
+    height: 3.9rem;
+    border: solid 0.2rem aqua;
+    border-radius: 3rem;
+    background-color: black ;
+    box-shadow: -0.5rem 0.5rem 1rem rgb(2, 19, 35) ;
+    font-size: 1.2rem;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center ;
+    margin-right:2rem;
+}        
+
+.contact-div:hover{
+    color:black;
+    background-color: white;
+}
+
+.contact-me-img{
+    background-image: url("./bg-img/favicon-32x32.png");
+    width:2rem;
+    height:2rem;
+    margin-right:1rem;
+}
+
+.header-right a{
+    text-decoration: none;
+}
+
+.menu-toggle{
+    display:none;
+}
+
+
+.sidebar-menu {
+    position: fixed; 
+    top: -4rem;
+    left: -300px; 
+    width: 300px; 
+    height: 100%;
+    backdrop-filter: blur(50px); 
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    transition: left 0.3s ease-out; 
+    padding-top: 5rem; 
+    margin-top: 7rem;
+    text-align: left; 
+}
+
+.sidebar-menu ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li a {
+    display: block;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.sidebar-menu li a:hover {
+    box-shadow: -0.5rem 0.5rem 1rem rgb(2, 19, 35) ;
+    background-color: rgba(55, 12, 80, 0.444) ;
+    color: white;
+}
+
+
+.menu-toggle:checked + .sidebar-menu {
+    left: 0; 
+}
+
+.menu {
+    cursor: pointer; 
+    display: block; 
+    width: 4rem;
+    height: 4rem;
+    border: solid 0.5rem black;
+    border-radius: 1rem;
+    background-color: rgb(12, 12, 12);
+    box-shadow: -0.5rem 0.5rem 1rem rgb(2, 19, 35);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left:1.5rem;
+}
+
+.menu-img{
+    width: 3rem; 
+    height: 3rem;
+}
+
+.menu:hover {
+    box-shadow: inset 2rem 2rem 2rem rgba(10, 40, 58, 0.462);
+}
+

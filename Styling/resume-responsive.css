@@ -1,0 +1,12 @@
+@media (max-width:768px){
+    .about-text{
+        width:100%;
+    }
+
+    .project-cards-div{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+}

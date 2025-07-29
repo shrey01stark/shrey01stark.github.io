@@ -393,9 +393,8 @@ header{
 }
 
 .project-cards-div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-colums: 1fr 1fr;
     padding: 0rem 2rem 2rem 0;
 
 }

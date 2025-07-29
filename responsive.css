@@ -38,8 +38,9 @@
     }
 
     .searchbar::placeholder{
-        font-size: 0.8rem;
+        font-size: 0.65rem;
         padding-left:0;
+        margin-left:0;
         color: rgb(231, 231, 231);
     }
 
@@ -65,7 +66,7 @@
     }
 
     .contact-me-img{
-        margin-right:0.5rem;
+        margin-right:0rem;
         border-radius: 1rem;
     }
 

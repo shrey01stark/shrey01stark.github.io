@@ -19,6 +19,10 @@
         align-content: center;  
     }
 
+    .header-right{
+        margin-right:0;
+    }
+
     .my-icon{
         width:1.5rem;
         height:auto;

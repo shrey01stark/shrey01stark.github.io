@@ -1,5 +1,7 @@
 @media (max-width: 768px){
-
+    .header{
+        
+    }    
     .header-img{
         height:64vw;
     }
@@ -15,7 +17,7 @@
 
     .about{
         font-size:1rem;
-        width: 26rem;
+        width: 24rem;
         margin:0;
     }
 

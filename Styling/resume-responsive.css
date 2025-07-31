@@ -1,0 +1,124 @@
+@media (max-width:768px){
+
+    body{
+        padding:0;
+    }
+
+    header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+
+    }
+
+    .header-left{
+        width:80%;
+        justify-content:center;
+        align-content: center;  
+    }
+
+    .header-right{
+        margin-right: 0;
+    }
+
+    .my-icon{
+        width:1.5rem;
+        height:auto;
+    }
+
+    .hire-me,.save-pdf{
+        padding:0.5rem;
+        font-size: medium;
+        margin-left:0.5rem;
+    }
+
+    .name{
+        font-size:2.5rem;
+    }
+
+    .about-text{
+        width:100%;
+    }
+
+    .main{
+        padding:3rem;
+    }
+
+    .pfp{
+        height:12rem;
+        width:auto;
+        margin-top:-6rem;
+    }
+
+    .contact{
+        margin-right:0.2rem;
+    }
+
+    .contact-details{
+        flex-direction: column-reverse;
+        font-size: 0.6rem;
+    }
+
+    .about-text{
+        font-size:0.9rem;
+
+    }
+
+    .page{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .sec-1{
+        width:80%;
+    }
+
+    .timeline-item{
+        width:90%;
+    }
+
+    .timeline-item h3{
+        overflow-wrap:break-word;
+        line-height: 1.2rem;
+    }
+
+    .hobbies-div h3{
+        font-size:1rem;
+    }
+
+    .hobbies-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .vertical-row{
+        display: none;
+    }
+
+    .spl-sep{
+        display:inline-block;
+    }
+
+    .sec-2{
+        width:80%;
+        padding: 1rem 0 0 2rem;
+        justify-content: center;
+
+    }
+
+    .project-cards-div{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tooltip{
+        top:6rem;
+    }   
+
+    .lang-circles p{
+        margin-left:0.1rem;
+    }
+}

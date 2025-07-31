@@ -307,6 +307,10 @@ header{
     border: solid 4px #181f2d;
 }
 
+.hobbies-div:hover{
+    box-shadow: 1rem 1rem 1rem #151719;
+}
+
 .vertical-row{
     background-color: rgba(245, 245, 245, 0.5); 
     margin: 3rem 6rem 3rem 0rem;
@@ -394,7 +398,7 @@ header{
 
 .project-cards-div{
     display:grid;
-    grid-template-colums: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 0rem 2rem 2rem 0;
 
 }
@@ -429,6 +433,13 @@ header{
     box-shadow: inset 1rem 1rem 1rem #181f2d;
     border: solid 4px #181f2d;
 
+
+}
+
+.proj-img:hover{
+    transition: transform 0.3s ease-in-out;
+    transform:scale(1.25)
+
 }
 
 .edu-div{
@@ -458,6 +469,7 @@ header{
     border: solid 4px #181f2d;
     border-radius: 1rem;
 }
+
 
 .timeline-icon {
     position: absolute;
@@ -493,6 +505,7 @@ header{
     margin-left: 3.5rem;
 }
 
+
 @keyframes edu-progress{
     0% {background-color:black; width: 5%;}
     25% {background-color:darkblue; width: 25%;}
@@ -502,8 +515,6 @@ header{
 
 
 .edu-progress{
-    animation-name: edu-progress;
-    animation-duration: 8s;
     background-color: aqua;
     height:100%;
 }
@@ -516,9 +527,8 @@ header{
 }
 
 .timeline-item:hover{
-    animation-name: animate-edu;
-    animation-duration: 4s;
-    animation-play-state: running;
+    animation: bounce 1s infinite alternate cubic-bezier(.5, 0.05, 1, .5),    animate-edu 4s infinite;
+
 }
 
 .tooltip{
@@ -537,6 +547,15 @@ circle.fg {
   transform-origin: 125px 125px;
 }
 
+@keyframes bounce{
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 30px, 0); 
+  }
+}
+
 .lang-circles{
     display: flex;
     align-items: center;
@@ -546,6 +565,10 @@ circle.fg {
     box-shadow:  1rem 1rem 1rem #181f2d;
     border: solid 4px #181f2d;
     border-radius: 1rem;
+}
+
+.lang-circles:hover{
+    box-shadow: 1rem 1rem 1rem #151719;
 }
 
 .lang-circles p{

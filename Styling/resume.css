@@ -253,7 +253,7 @@ header{
     margin-bottom: 2rem;
     left:1.2rem;
     top:-1rem;
-    height:100%;
+    height:70%;
     position: absolute;
     width:4px;
     background: linear-gradient(to bottom,#66D9EF,#006198, #001F3F);
@@ -574,4 +574,5 @@ circle.fg {
 .lang-circles p{
     margin-left:-5rem;
 } 
+
 

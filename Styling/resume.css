@@ -229,6 +229,7 @@ header{
 }
 
 .card-text{
+    font-size:1.6rem;
     text-align: left;
     margin-bottom:3rem;
     width:100%;
@@ -241,6 +242,7 @@ header{
     padding-left: 1rem;
     border-left: solid 0.5rem #19202E;
     background-color:#212b3d;
+    font-size: 1.2rem;
 }
 
 .xp-div{
@@ -287,13 +289,13 @@ header{
 }
 
 .timeline-content h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
   line-height: 0rem;
 }
 
 .timeline-content ul {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #ccc;
   text-align: left;
 }
@@ -574,5 +576,6 @@ circle.fg {
 .lang-circles p{
     margin-left:-5rem;
 } 
+
 
 

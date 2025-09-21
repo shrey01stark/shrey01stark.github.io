@@ -302,9 +302,8 @@ header{
 }
 
 .hobbies-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border-radius:1rem;
     box-shadow: inset 1rem 1rem 1rem #181f2d;
     border: solid 4px #181f2d;
@@ -577,6 +576,7 @@ circle.fg {
 .lang-circles p{
     margin-left:-5rem;
 } 
+
 
 
 

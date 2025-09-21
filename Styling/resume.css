@@ -22,6 +22,7 @@ h1,h2,h3,h4 {
   font-optical-sizing: auto;
   font-weight: 700;
   text-transform: uppercase;
+  font-size:1.5rem;
 }
 
 header{
@@ -576,6 +577,7 @@ circle.fg {
 .lang-circles p{
     margin-left:-5rem;
 } 
+
 
 
 

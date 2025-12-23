@@ -82,7 +82,7 @@ h4{
 .about{
     display:inline-block;
     font-size: 1.5rem;
-    width: 70rem;
+    max-width: 75vw;
     color:white;
     text-shadow: 0rem 0rem 5rem white;
     margin-bottom:8rem;
@@ -181,3 +181,4 @@ h4{
 .project:hover .proj-img{
     transform: scale(1.02)
 }
+
